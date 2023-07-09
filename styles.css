@@ -20,6 +20,9 @@ body {
 /* nav related styles*/
 nav {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 220px;
 }
 
 .nav-heading {
@@ -30,6 +33,7 @@ nav {
 
 nav ul {
   display: flex;
+  align-items: center;
 }
 nav li {
   list-style: none;
@@ -38,4 +42,16 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.profile-pic {
+  width: 500px;
 }
